@@ -1,0 +1,257 @@
+/* ==================================== responsive css ===========================================*/
+
+
+
+@media (max-width: 1199.98px) {
+
+    .banner .item {
+        background-size: cover !important;
+        position: relative;
+    }
+
+    .banner .item h1 {
+        font-size: 40px;
+    }
+
+    .banner .item p {
+        max-width: 30rem;
+        font-size: 15px;
+    }
+
+    .update .content .text h6 {
+        font-size: 13px;
+    }
+
+    .about .content h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .about .content p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .about .content .box img {
+        max-height: 50px;
+    }
+
+    .about .content .box h5 {
+        font-size: 17px;
+    }
+
+    .about .content .box p {
+        font-size: 12px;
+    }
+
+    .update .content .text h6 a {
+        font-size: 13px;
+        width: 90px;
+        height: 25px;
+        line-height: 21px;
+    }
+
+    .update .content .text h6 a:hover::before {
+        width: 107%;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+
+    .navbar-nav {
+        overflow: auto;
+        height: 20rem;
+    }
+
+    .nav-link {
+        padding: 17px 9px !important;
+        border-bottom: 1px dashed #0071bc;
+    }
+
+    .fixed-top .nav-link {
+        padding: 17px 24px !important;
+    }
+
+    .nav-link.active {
+        color: #79b4db !important;
+        background: transparent;
+    }
+
+    .banner .item h1 {
+        font-size: 45px;
+    }
+
+    .about .content .box img {
+        height: 60px;
+    }
+
+    .headline h1 {
+        font-size: 35px;
+    }
+
+    .latest-news .headline p {
+        font-size: 14px;
+    }
+
+    .consultation h3 {
+        font-size: 30px;
+    }
+
+    .services .content a {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+    .banner .item h1 {
+        font-size: 25px;
+    }
+
+    .banner .item p {
+        font-size: 11px;
+    }
+
+    .banner .item a {
+        font-size: 10px;
+        width: 90px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .banner .item .content {
+        color: #fff;
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        top: 0;
+        transform: none;
+        padding: 80px 0;
+    }
+    
+    .item1{
+        background: url('../images/Banner%201.png');
+        background-size: cover;
+    }
+    .item2{
+        background: url('../images/Banner%202.png');
+        background-size: cover;
+    }
+    .item3{
+        background: url('../images/banner-3.png');
+        background-size: cover;
+    }
+    .banner .item img{
+        display: none;
+    }
+
+    .about .content h1 {
+        font-size: 30px;
+    }
+
+    .about .content hr {
+        height: 3px;
+    }
+
+    .about .content p {
+        font-size: 15px;
+    }
+
+    .about .content .box img {
+        width: 45px;
+    }
+
+    .about .content .box h5 {
+        font-size: 18px;
+    }
+
+    .about .content .box p {
+        font-size: 12px;
+    }
+
+    .bannerop::before {
+        height: 40%;
+    }
+
+    .update .content .text h6 a {
+        float: none;
+        margin-top: 10px;
+    }
+
+    .latest-news .news .date {
+        font-size: 11px;
+    }
+
+    .latest-news .news a {
+        font-size: 14px;
+    }
+
+    .consultation {
+        background: url('../images/7.jpg');
+        background-size: cover;
+        padding: 40px 0;
+    }
+
+    .consultation img {
+        display: none;
+    }
+
+    .consultation .content {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .consultation,
+    .consultation .button {
+        text-align: center;
+    }
+
+    .footer .content h5 {
+        margin-bottom: 10px;
+    }
+
+    .latest-news .owl-theme .owl-dots .owl-dot span {
+        width: 5px;
+    }
+
+}
+
+
+
+
+@media (max-width: 500px) {
+    .container-fluid {
+        padding: 0 10px;
+    }
+
+    .logo img {
+        width: 130px;
+    }
+
+    .banner {
+        margin-top: 70px;
+    }
+
+    .banner .item .content {
+        left: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .banner .item .content {
+        padding: 30px 0;
+    }
+
+    .banner .item h1 {
+        font-size: 20px;
+    }
+
+    .bannerop::before {
+        height: 20%;
+    }
+
+}
